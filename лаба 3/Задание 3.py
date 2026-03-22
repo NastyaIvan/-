@@ -12,9 +12,6 @@ def count_letters(text):
     return slovar
 
 
-
-
-
 # TODO Напишите функцию calculate_frequency
 def calculate_frequency(slovar):
     summa = sum(slovar.values())
@@ -23,8 +20,6 @@ def calculate_frequency(slovar):
         slovar[bykva] = slovar[bykva] / summa
     #     для каждого ключа перезаписываем значение на частоту
     return slovar
-
-
 
 main_str = """
 У лукоморья дуб зелёный;
